@@ -3,7 +3,7 @@
  * Plugin Name:       WP Offboard Assistant
  * Plugin URI:        https://github.com/soyunomas/wp-offboard-assistant
  * Description:       Un asistente guiado y seguro para dar de baja a usuarios de WordPress.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            soyunomas
  * Author URI:        https://github.com/soyunomas
  * License:           GPL v2 or later
@@ -18,10 +18,11 @@
 
 // ¡Control de seguridad! Si este archivo es llamado directamente, abortar.
 if ( ! defined( 'WPINC' ) ) {
-    die;
+	die;
 }
 
-define( 'WPOA_VERSION', '1.0.0' );
+// --- MODIFICACIÓN v1.1.0: Versión actualizada ---
+define( 'WPOA_VERSION', '1.1.0' );
 define( 'WPOA_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 // Cargar las clases necesarias.
