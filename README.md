@@ -19,8 +19,9 @@ Todo el proceso está impulsado por una mentalidad de "la seguridad primero" (se
 ## Características ✨
 
 *   🧙‍♂️ **Asistente Guiado en un Modal:** Un proceso intuitivo paso a paso que se inicia directamente desde la lista de usuarios.
-*   🔄 **Reasignación de Contenido:** Reasigna de forma segura las entradas de un usuario a otro que tenga privilegios suficientes (ej. otro Administrador o Editor). También puedes optar por eliminar su contenido.
+*   🔄 **Reasignación de Contenido:** Reasigna de forma segura las entradas de un usuario a otro que tenga privilegios suficientes. El selector muestra el **nombre de usuario y su rol** (ej. Editor) para una decisión más informada.
 *   🔒 **Acciones Seguras sobre la Cuenta:**
+    *   📧 **Anonimizar Correo Electrónico:** Opción para cambiar el email del usuario a un valor ficticio (ej. `usuario@deleted.local`), impidiendo la recuperación de contraseña.
     *   **Degradar Cuenta:** Cambia el perfil del usuario a 'Suscriptor' y reinicia su contraseña a una cadena larga, aleatoria y segura.
     *   **Eliminar Cuenta:** Borra permanentemente al usuario de la base de datos.
 *   🚫 **Destrucción de Sesiones:** Cierra automáticamente todas las sesiones de inicio de sesión activas para el usuario que se está dando de baja, revocando su acceso de inmediato.
@@ -43,16 +44,13 @@ Todo el proceso está impulsado por una mentalidad de "la seguridad primero" (se
 ## Capturas de Pantalla 📸
 
 1.  **El enlace "Iniciar Offboarding" en la lista de usuarios.**
-    *(Añade aquí tu captura de pantalla: `assets/screenshot-1.png`)*
+    ![Enlace "Iniciar Offboarding" en la lista de usuarios](assets/screenshot-1.png)
 
-2.  **El asistente modal, mostrando el Paso 1 para la reasignación de contenido.**
-    *(Añade aquí tu captura de pantalla: `assets/screenshot-2.png`)*
+2.  **El asistente modal, mostrando las opciones de reasignación (con roles), anonimización de email y acción final.**
+    ![Asistente modal con todas las opciones](assets/screenshot-2.png)
 
-3.  **El paso de confirmación final, para asegurar que la acción es intencionada.**
-    *(Añade aquí tu captura de pantalla: `assets/screenshot-3.png`)*
-
-4.  **La página de registro de auditoría, mostrando un registro de un offboarding completado.**
-    *(Añade aquí tu captura de pantalla: `assets/screenshot-4.png`)*
+3.  **La página de registro de auditoría, mostrando un registro de un offboarding completado.**
+    ![Página de registro de auditoría](assets/screenshot-3.png)
 
 ## Preguntas Frecuentes (FAQ) ❓
 
