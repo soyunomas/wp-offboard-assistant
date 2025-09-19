@@ -1,0 +1,86 @@
+/* Estilos del Modal */
+
+/* -- ESTA ES LA REGLA CORREGIDA -- */
+/* Al combinar el ID y la clase, esta regla ahora es más específica
+   y puede anular correctamente la regla de 'display: flex'. */
+#wpoa-modal.wpoa-modal-hidden {
+    display: none;
+}
+
+#wpoa-modal {
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wpoa-modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.wpoa-close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.wpoa-close-button:hover,
+.wpoa-close-button:focus {
+    color: black;
+    text-decoration: none;
+}
+
+#wpoa-spinner {
+    float: none;
+    margin: 20px auto;
+    display: block;
+}
+
+.wpoa-step {
+    border-top: 1px solid #ddd;
+    padding: 15px 0;
+}
+.wpoa-step:first-child {
+    border-top: none;
+}
+.wpoa-confirmation {
+    background-color: #fff8e5;
+    padding: 15px;
+    border: 1px solid #ffc107;
+}
+
+#wpoa-feedback.error {
+    color: #d9534f;
+}
+#wpoa-feedback.success {
+    color: #5cb85c;
+}
+
+/* Enlace en la lista de usuarios */
+a.wpoa-start-offboard {
+    color: #d9534f;
+}
+a.wpoa-start-offboard:hover {
+    color: #a94442;
+}
