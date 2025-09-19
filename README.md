@@ -35,7 +35,7 @@ Todo el proceso está impulsado por una mentalidad de "la seguridad primero" (se
 
 ## Instalación 🚀
 
-1.  Descarga el archivo ZIP de la última versión desde el [repositorio de GitHub](https://github.com/soyunomas/wp-offboard-assistant).
+1.  Descarga el archivo ZIP de la última versión desde el [repositorio de GitHub](https://github.com/soyunomas/wp-offboard-assistant/releases).
 2.  En tu panel de administración de WordPress, ve a **Plugins > Añadir nuevo**.
 3.  Haz clic en **Subir plugin** y selecciona el archivo ZIP que descargaste.
 4.  Activa el plugin.
